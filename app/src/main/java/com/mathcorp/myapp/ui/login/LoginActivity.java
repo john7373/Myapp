@@ -35,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
 
         binding = ActivityLogin2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
